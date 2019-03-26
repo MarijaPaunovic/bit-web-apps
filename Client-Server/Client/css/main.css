@@ -1,0 +1,27 @@
+
+div {
+    box-sizing: border-box;
+    background: #556e79;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.blog {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #ec6f75;
+    padding: 0;
+}
+p {
+    margin-left: 10px;
+}
+p:hover {
+    color: grey;
+    cursor: pointer;
+}
+.end {
+    width: 100%;
+    background:#ec6f75;
+    height: 40px;
+}

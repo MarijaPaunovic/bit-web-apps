@@ -4,8 +4,17 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end('<img src="https://solarsystem.nasa.gov/system/basic_html_elements/11561_Sun.png">');
+    res.setHeader('Content-Type', 'application/json');
+
+
+
+
+    const data = {
+        name: "pera",
+        surname: "peric"
+    }
+    res.end(JSON.stringify(data));
+    // res.end('<img src="https://solarsystem.nasa.gov/system/basic_html_elements/11561_Sun.png">');
     // res.end('Hello World\n');
 });
 
